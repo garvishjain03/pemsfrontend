@@ -1,0 +1,25 @@
+.showColor td {
+	background: #e3ae8a;
+}
+.showColor td:first-child {
+	background: unset;
+}
+.showColor td:last-child {
+	background: unset;
+}
+.showColor td:nth-last-child(2) {
+	background: unset;
+}
+
+.showDangerBg td {
+	background: #ff7155;
+}
+.showDangerBg td:first-child {
+	background: unset;
+}
+.showDangerBg td:last-child {
+	background: unset;
+}
+.showDangerBg td:nth-last-child(2) {
+	background: unset;
+}

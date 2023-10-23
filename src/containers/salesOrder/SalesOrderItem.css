@@ -1,0 +1,9 @@
+.acceptOrderModal .mantine-Modal-modal {
+	width: 40% !important;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+.orderHeaderInItem .table {
+	margin-top: 0;
+}

@@ -1,0 +1,23 @@
+.table {
+	border: 2px solid #f1f3f5;
+}
+.mantine-12aznqy thead tr th {
+	text-align: center;
+}
+
+.tableContainer {
+	background-color: #1e1f25;
+	border-radius: 20px;
+	height: 244px;
+	padding: 0 10px 10px 10px;
+	overflow: scroll;
+}
+.__mantine-ref-thumb.mantine-1jaleph.mantine-ScrollArea-thumb {
+	z-index: 111111;
+}
+.mantine-ejsy0w thead tr th {
+	border-bottom: 0px solid #dee2e6;
+}
+.stockTotals:hover {
+	/* text-decoration: underline; */
+}

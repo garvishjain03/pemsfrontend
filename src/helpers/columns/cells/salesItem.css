@@ -1,0 +1,36 @@
+.salesItem {
+}
+.saleItemIcons {
+	display: flex;
+	justify-content: space-between;
+}
+.commentModel {
+	width: 30%;
+	margin: 0 auto;
+}
+.commentModel_btn {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+	gap: 2rem;
+}
+.icon {
+	background-color: #ffe8cc;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.comment {
+	display: grid;
+	grid-template-columns: 4rem 1fr;
+}
+.comment p {
+	font-size: 0.91rem;
+}
+.textarea textarea,
+.textarea > div {
+	height: 100%;
+}

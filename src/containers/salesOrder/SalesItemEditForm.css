@@ -1,0 +1,17 @@
+.tradedItem .mantine-Group-root:last-child {
+	display: flex;
+	justify-content: space-between;
+	white-space: nowrap;
+}
+
+.tradedItem .mantine-Group-root:first-child {
+	display: flex;
+	justify-content: unset;
+	white-space: nowrap;
+}
+.SalesItemEditForm .mantine-Group-root:last-child,
+.SalesItemEditForm .mantine-Group-root:first-child {
+	display: flex;
+	justify-content: space-between;
+	white-space: nowrap;
+}

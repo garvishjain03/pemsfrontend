@@ -1,0 +1,72 @@
+[
+	{
+		"display": true,
+		"accessor": {
+			"string": "profile"
+		},
+		"Cell": "usersProfileCell",
+		"disableFilters": false
+	},
+	{
+		"display": true,
+		"Header": "Name",
+		"accessor": {
+			"string": "name"
+		},
+		"disableFilters": false
+	},
+	{
+		"display": true,
+		"Header": "UserName",
+		"accessor": {
+			"string": "username"
+		},
+		"disableFilters": false
+	},
+	{
+		"display": true,
+		"Header": "Roles",
+		"accessor": {
+			"method": "usersRolesAccessor"
+		},
+		"disableFilters": "disableFiltersUserRoles",
+		"canGroupBy": true,
+		"Filter": "SelectMultiRolesFilter",
+
+		"Cell": "usersRolesCell"
+	},
+	{
+		"display": true,
+		"Header": "DefaultRole",
+		"accessor": {
+			"string": "defaultRole"
+		},
+		"disableFilters": "disableFiltersUserDefaultRole",
+		"canGroupBy": true,
+		"Filter": "SelectMultiDefaultRolesFilter",
+
+		"Cell": "usersDefaultRolesCell"
+	},
+
+	{
+		"display": true,
+		"Header": "Status",
+		"accessor": {
+			"string": "userStatus"
+		},
+		"disableFilters": "disableFiltersUserStatus",
+
+		"Filter": "ColumnSelectStatusFilter",
+		"Cell": "usersStatusCell"
+	},
+	{
+		"display": true,
+		"Header": "Action",
+		"accessor": {
+			"string": "action"
+		},
+		"disableFilters": "disableFiltersUserAction",
+
+		"Cell": "usersActionsCell"
+	}
+]

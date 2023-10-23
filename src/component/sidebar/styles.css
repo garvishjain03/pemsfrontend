@@ -1,0 +1,179 @@
+.mantine-Button-inner {
+	justify-content: start;
+}
+.mantine-Button-default {
+	color: "red";
+}
+
+.expandopen {
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99;
+	background-color: #339af0;
+	width: 24px;
+	height: 24px;
+	color: white;
+	cursor: pointer;
+	transform: translate(50%, 50%) rotatez(0deg);
+	transition: transform 400ms;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.list-item {
+	list-style: none;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+	color: black;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	align-items: center;
+	max-width: 235px;
+	margin-right: 8px;
+}
+a {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	text-decoration: none;
+	font-weight: 400;
+	padding: 13px;
+	min-width: 45px;
+}
+
+.expandclose {
+	transform: translate(50%, 50%) rotatez(-180deg);
+	align-items: center;
+}
+.active {
+	background-color: #339af0;
+	color: white;
+}
+.statusOrder {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.orderCountBubble {
+	display: flex;
+	gap: 1rem;
+}
+.pplaner_count {
+	justify-self: start;
+	background: #82c91e;
+	color: white;
+	border: 2px solid #82c91e;
+	vertical-align: middle;
+	height: 1.4rem;
+	width: 1.53rem;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+.commit_expiry_count {
+	justify-self: start;
+	background: #fa5252;
+	color: white;
+	border: 2px solid #fa5252;
+	vertical-align: middle;
+	height: 1.4rem;
+	width: 1.53rem;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+.pplaner_accept_count {
+	background: #fa5252;
+	color: white;
+	border: 2px solid #fa5252;
+}
+.pplaner_recheck_count {
+	background: #339af0;
+	color: white;
+	border: 2px solid #339af0;
+}
+.Sidebar_badge {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	transform: translate(0.81rem, -1rem);
+	background: white;
+	border: 2px solid #339af0;
+	vertical-align: top;
+	height: 1.35rem;
+	width: 1.35rem;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8681rem;
+	font-weight: 600;
+	color: #339af0;
+}
+.Sidebar_badge_3 {
+	height: 1.35rem;
+	width: 1.35rem;
+	font-size: 0.6681rem;
+}
+.Sidebar_badge_4 {
+	height: 1.55rem;
+	width: 1.55rem;
+	font-size: 0.5681rem;
+}
+.Sidebar_badge_5 {
+	height: 1.65rem;
+	width: 1.65rem;
+	font-size: 0.49rem;
+}
+.count_layoutOpen {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	transform: translateY(40%);
+	background: white;
+	border: 2px solid #339af0;
+	vertical-align: top;
+	height: 1.64rem;
+	width: 1.64rem;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #339af0;
+	margin-left: 1rem;
+	float: right;
+	transform: translateY(0.6rem);
+}
+.count_layoutOpen_3 {
+	height: 1.84rem;
+	width: 1.84rem;
+	font-size: 0.9rem;
+}
+.count_layoutOpen_4 {
+	height: 1.94rem;
+	width: 1.94rem;
+	font-weight: 700;
+	border-radius: 50%;
+	font-size: 0.7rem;
+}
+.count_layoutOpen_5 {
+	height: 2.3rem;
+	width: 2.3rem;
+	font-weight: 700;
+	transform: translateY(0.3rem);
+	font-size: 0.7rem;
+}
+.mantine-DatePicker-dropdown {
+	z-index: 0;
+}

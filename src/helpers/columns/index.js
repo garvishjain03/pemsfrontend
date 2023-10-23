@@ -1,0 +1,1 @@
+export { genrateColumnConfig } from "./columns";
